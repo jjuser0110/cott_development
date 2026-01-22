@@ -10,15 +10,6 @@
 
 <!-- HEADER 1 -->
 <header id="header" class="header head1">
-    <div class="searchbar searchbar-light">
-        <div class="container">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" name="search" value="" placeholder="Search" />
-                <span class="input-group-btn"><button type="button" class="btn-close"></button></span>
-            </div><!-- /input-group -->
-        </div><!-- /container -->
-    </div><!-- /searchbar -->
 
     <div class="main-header main-header-1 bd-b-alpha">
         <div class="container">
@@ -33,10 +24,6 @@
                 <span class="icon">&nbsp;</span>
             </div><!-- /mobile-nav-menu -->
             <!-- /END MOBILE MENU -->
-
-            <!-- SEARCH BUTTON -->
-            <div class="search-btn"><span class="fa fa-search"></span></div>
-            <!-- END / SEARCH BUTTON -->
 
             <!-- NAVIGATION -->
             <nav class="navigation nav1" data-menu-type="1199">
