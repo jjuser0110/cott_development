@@ -1610,9 +1610,10 @@ html .bg-color {
 }
 
 .widget.widget_about .logo {
-  float: none;
-  display: inline-block;
-  margin-bottom: 30px;
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: -30px;
 }
 
 .widget.widget_about .logo img {
