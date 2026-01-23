@@ -14,7 +14,7 @@
         <div class="container">
             <div class="sub-wrapper">
                 <h1>Core Values</h1>
-                <h2 class="h4">If you’d like to talk to us about a project, or anything else, we’d love to hear from you.</h2>
+                <h2 class="h4">We work with honesty, excellence, and responsibility. These values guide everything we do to deliver safe and reliable projects.</h2>
 
                 <div class="breadcrumb-container right clearfix">
                     <span>You are here: </span>

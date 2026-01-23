@@ -14,7 +14,7 @@
         <div class="container">
             <div class="sub-wrapper">
                 <h1>Partners</h1>
-                <h2 class="h4">If you’d like to talk to us about a project, or anything else, we’d love to hear from you.</h2>
+                <h2 class="h4">We work with trusted partners to deliver the best solutions. Together, we ensure projects are completed smoothly and on time.</h2>
 
                 <div class="breadcrumb-container right clearfix">
                     <span>You are here: </span>

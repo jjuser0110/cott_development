@@ -479,9 +479,9 @@
                 </div><!-- /isotope-grid-row -->
             </div><!-- /isotope-grid-wrapper -->
 
-            <!-- <div class="text-center mt-40">
-                <a href="service.php" class="btn btn-primary radius mb-30">View more </a>
-            </div> -->
+            <div class="text-center mt-40">
+                <a href="work.php" class="btn btn-primary radius mb-30">View more </a>
+            </div>
         </div><!-- /container -->
     </section>
     <!-- END / PORTFOLIO 1 -->

@@ -9,12 +9,12 @@
 
 <div id="page-wrap">
     <!-- SUB HEADER -->
-    <section id="sub-header" class="section bg-parallax pb-0" data-background="img/bg/contact.jpg">
+    <section id="sub-header" class="section bg-parallax pb-0" data-background="image/certification_background.jpg">
         <div class="bg-overlay-black bg-overlay-5"></div>
         <div class="container">
             <div class="sub-wrapper">
                 <h1>Certifications</h1>
-                <h2 class="h4">If you’d like to talk to us about a project, or anything else, we’d love to hear from you.</h2>
+                <h2 class="h4">Our certifications show our commitment to quality and safety. They ensure every project meets professional standards.</h2>
 
                 <div class="breadcrumb-container right clearfix">
                     <span>You are here: </span>

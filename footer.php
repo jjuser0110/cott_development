@@ -44,7 +44,7 @@
 
                     <div class="col-md-3 col-md-pull-3 col-sm-6 col-xs-12">
                         <aside class="widget widget_infomation">
-                            <h3 class="widget-title h4">Infomation</h3>
+                            <h3 class="widget-title h4">Information</h3>
                             <ul class="list-style">
                                 <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">About Us</a></li>
                                 <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">Our Service</a></li>
@@ -314,6 +314,27 @@
                 // Scroll to top of content
                 document.getElementById('content').scrollIntoView({ behavior: 'smooth', block: 'start' });
             });
+        });
+    });
+</script>
+
+<script>
+    // Get all service links
+    const serviceLinks = document.querySelectorAll('.service-link');
+
+    serviceLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // prevent default if it's a # link
+
+            // Remove active class from all
+            serviceLinks.forEach(l => l.parentElement.classList.remove('active'));
+
+            // Add active class to the clicked one
+            this.parentElement.classList.add('active');
+
+            // Optional: do something with the data-service value
+            const service = this.getAttribute('data-service');
+            console.log('Selected service:', service);
         });
     });
 </script>
