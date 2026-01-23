@@ -206,7 +206,7 @@
                 <div class="col-lg-9 col-lg-push-3 col-sm-12 col-xs-12">
                     <h2 class="section-header big">Who we are?</h2>
                     <p>COTT DEVELOPMENT SDN BHD (CDSB) (Reg. No. 1163123-V / 201501037802) was established in 2015 as a wholly Bumiputera-owned private limited company. We are a reliable general contractor providing engineering and construction services in building works, infrastructure, telecommunications, oil & gas, as well as the supply of generators, solar solutions, and construction materials.</p>
-                    <p>Supported by a skilled and experienced workforce, CDSB is committed to delivering high-quality services that meet client needs while contributing positively to economic growth and the community, particularly in Sarawak.</p>
+                    <p>Supported by a skilled and experienced workforce, we are committed to delivering high-quality services that meet client needs while contributing positively to economic growth and the community, particularly in Sarawak.</p>
 
                     <div class="divider pt-30 pb-40"></div>
 
