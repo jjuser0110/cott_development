@@ -29,7 +29,7 @@
             <nav class="navigation nav1" data-menu-type="1199">
                 <ul class="nav text-uppercase">
                     <li><a href="./">Home</a></li>
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                         <a href="#">
                             Features
                             <span class="fa fa-angle-down"></span>
@@ -64,44 +64,42 @@
                             <li><a href="career.html">Career</a></li>
                             <li><a href="faqs.html">FaQs</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="menu-item-has-children">
-                        <a a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">
+                        <a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">
                             Who we are
-                            <span class="fa fa-angle-down"></span>
+                            <!-- <span class="fa fa-angle-down"></span> -->
                         </a>
-                        <ul class="sub-menu">
+                        <!-- <ul class="sub-menu">
                             <li><a href="about-us.html">About us</a></li>
                             <li><a href="history.html">History</a></li>
                             <li><a href="our-leaders.html">Our Leaders</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li><a href="service.html">Services</a></li>
-                    <li class="menu-item-has-children">
+                    <li>
+                        <a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">
+                            Our Service
+                        </a>
+                    </li>
+                    <li>
                         <a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">
                             Our work
-                            <span class="fa fa-angle-down"></span>
                         </a>
-                        <ul class="sub-menu">
-                            <li><a href="work4col.html">Work 4 Column</a></li>
-                            <li><a href="work4col-nospace.html">Work 4 Column Nospace</a></li>
-                            <li><a href="work3col.html">Work 3 Column</a></li>
-                            <li><a href="work3col-nospace.html">Work 3 Column Nospace</a></li>
-                        </ul>
                     </li>
+                    <li><a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')">Our Leader</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">
-                            Shop
+                            Others
                             <span class="fa fa-angle-down"></span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="shop-left.html">Shop Sidebar Left</a></li>
-                            <li><a href="shop-right.html">Shop Sidebar Right</a></li>
-                            <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
+                            <li><a href="core_value.php">Core Value</a></li>
+                            <li><a href="partner.php">Partnership</a></li>
+                            <li><a href="certification.php">Certification</a></li>
                         </ul>
                     </li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <!-- <li><a href="news.html">News</a></li> -->
+                    <li><a href="contact.php">Contact us</a></li>
                 </ul><!-- /nav -->
             </nav>
             <!-- END / NAVIGATION -->

@@ -23,7 +23,7 @@
                         <aside class="widget widget_subscribe">
                             <h3 class="widget-title h4">Contact Us</h3>
                             <p>Get in touch with us for any inquiries about our construction services.</p>
-                            <button type="submit" class="btn btn-primary">Message Us</button>
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href='contact.php'">Message Us</button>
                         </aside><!-- /widget_subscribe -->
                     </div><!-- /col -->
 
@@ -46,12 +46,13 @@
                         <aside class="widget widget_infomation">
                             <h3 class="widget-title h4">Infomation</h3>
                             <ul class="list-style">
-                                <li><a href="#">History of Brooklyn</a></li>
-                                <li><a href="#">Penang Street Food</a></li>
-                                <li><a href="#">The mist of madagascar</a></li>
-                                <li><a href="#">J.R.R. Tolkien</a></li>
-                                <li><a href="#">Morocco Road Trip</a></li>
-                                <li><a href="#">The noise - Elixir</a></li>
+                                <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">About Us</a></li>
+                                <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">Our Service</a></li>
+                                <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">Our Work</a></li>
+                                <li><a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')">Our Leader</a></li>
+                                <li><a href="core_value.php">Core Value</a></li>
+                                <li><a href="partner.php">Partnership</a></li>
+                                <li><a href="certification.php">Certification</a></li>
                             </ul>
                         </aside><!-- /widget_infomation -->
                     </div><!-- /col -->
@@ -62,14 +63,13 @@
         <div class="foot-credit">
             <div class="container">
                 <ul>
-                    <li><a href="input.html">Home</a></li>
-                    <li><a href="about-us.html">Who we are</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="work4col.html">Our work</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">Who we are</a></li>
+                    <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">Our Service</a></li>
+                    <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">Our Work</a></li>
+                    <li><a href="contact.php">Contact us</a></li>
                 </ul>
-                <p>© 2025 <a href="./">Cott Development</a>. All rights reserved.</p>
+                <p>© 2025 <a href="./" style="color:white">Cott Development</a>. All rights reserved.</p>
             </div><!-- /container -->
         </div><!-- /foot-credit -->
     </footer>
@@ -145,3 +145,175 @@
             }
         });
     </script>
+
+    <script>
+    // Service content data
+    const serviceData = {
+        building: {
+            title: "Building Construction",
+            description: `<p>We undertake complete building construction works for residential, commercial, institutional, and government projects, from foundation works through to final completion and handover.</p>
+            <br />
+            <p>Our building construction services are backed by experienced professionals, quality materials, and strict adherence to safety standards. We ensure timely project delivery while maintaining the highest levels of workmanship and client satisfaction.</p>`,
+            images: [
+                'image/building_construction1.jpg',
+                'image/building_construction2.jpg',
+                'image/building_construction5.jpg',
+                'image/building_construction4.jpg'
+            ]
+        },
+        civil: {
+            title: "Civil & Infrastructure Works",
+            description: `<p>We carry out civil and infrastructure works including road construction, road upgrading, drainage systems, access roads, and supporting infrastructure for public and private developments.</p>
+            <br />
+            <p>Our civil engineering team brings extensive expertise in delivering robust infrastructure solutions that meet regulatory requirements and serve communities for decades. We handle projects from initial site assessment through to final commissioning.</p>`,
+            images: [
+                'image/civil_work1.jpg',
+                'image/civil_work5.jpg',
+                'image/civil_work3.jpg',
+                'image/civil_work6.jpg'
+            ]
+        },
+        earthworks: {
+            title: "Earthworks & Site Preparation",
+            description: `<p>Our earthworks services include land clearing, excavation, filling, leveling, and subbase preparation to support building, road, and infrastructure construction projects.</p>
+            <br />
+            <p>With modern equipment and experienced operators, we ensure precise site preparation that provides a solid foundation for your construction project. Our earthworks services are efficient, safe, and environmentally responsible.</p>`,
+            images: [
+                'image/earthwork1.jpg',
+                'image/earthwork2.jpg',
+                'image/earthwork5.jpg',
+                'image/earthwork4.jpg'
+            ]
+        },
+        drainage: {
+            title: "Drainage, Irrigation & River Protection",
+            description: `<p>We provide drainage improvement, irrigation infrastructure, and riverbank protection works to enhance flood control, water management, and long-term environmental stability.</p>
+            <br />
+            <p>Our specialized team designs and implements effective water management solutions that protect properties, enhance agricultural productivity, and preserve natural waterways for sustainable development.</p>`,
+            images: [
+                'image/river_protection6.jpg',
+                'image/river_protection2.jpg',
+                'image/river_protection1.jpg',
+                'image/river_protection5.jpg'
+            ]
+        },
+        renovation: {
+            title: "Renovation, Refurbishment & Maintenance",
+            description: `<p>We deliver renovation, refurbishment, and maintenance works for existing buildings, including interior upgrading, structural repairs, roofing, repainting, and related improvement works.</p>
+            <br />
+            <p>Whether you need minor repairs or major refurbishment, our skilled team restores and enhances your property while minimizing disruption. We breathe new life into existing structures with quality craftsmanship and attention to detail.</p>`,
+            images: [
+                'image/renovation1.jpg',
+                'image/renovation2.jpg',
+                'image/renovation3.jpg',
+                'image/renovation4.jpg'
+            ]
+        },
+        government: {
+            title: "Institutional & Government Projects",
+            description: `<p>We specialize in delivering construction and infrastructure projects for government agencies, statutory bodies, and institutional clients in compliance with required standards and procedures.</p>
+            <br />
+            <p>Our experience with government projects ensures strict adherence to procurement regulations, quality standards, and timely delivery. We understand the unique requirements of public sector construction and deliver accordingly.</p>`,
+            images: [
+                'image/government_project6.jpg',
+                'image/government_project5.jpg',
+                'image/government_project2.jpg',
+                'image/government_project4.jpg'
+            ]
+        },
+        mechanical: {
+            title: "Mechanical & Ancillary Civil Structures",
+            description: `<p>We construct ancillary civil structures such as pump houses, tank plinths, and supporting facilities for mechanical and fire protection systems within development projects.</p>
+            <br />
+            <p>These specialized structures are essential for modern building systems. Our team ensures proper design integration and construction quality to support mechanical equipment and safety systems effectively.</p>`,
+            images: [
+                'image/ancillary1.jpg',
+                'image/ancillary6.jpg',
+                'image/ancillary3.jpg',
+                'image/ancillary5.jpg'
+            ]
+        },
+        road: {
+            title: "Road Marking & Traffic Works",
+            description: `<p>We supply and apply reflective thermoplastic road markings to improve road safety, visibility, and traffic control in accordance with local authority specifications.</p>
+            <br />
+            <p>Our road marking services use durable, high-visibility materials that enhance traffic safety and comply with regulatory standards. We work efficiently to minimize traffic disruption while delivering quality results.</p>`,
+            images: [
+                'image/traffic_work1.jpg',
+                'image/traffic_work2.jpg',
+                'image/traffic_work3.jpg',
+                'image/traffic_work4.jpg'
+            ]
+        },
+        cleaning: {
+            title: "Cleaning, Maintenance & Support Services",
+            description: `<p>We provide cleaning, maintenance, manpower support, and related services to ensure construction projects are completed, operational, and well-maintained.</p>
+            <br />
+            <p>Our comprehensive support services keep your facilities running smoothly long after construction completion. From routine cleaning to ongoing maintenance, we ensure your investment remains in optimal condition.</p>`,
+            images: [
+                'image/cleaning_service1.jpg',
+                'image/cleaning_service5.jpg',
+                'image/cleaning_service7.jpg',
+                'image/cleaning_service4.jpg'
+            ]
+        }
+    };
+
+    // Function to update slider images without destroying layout
+    function updateSliderImages(images) {
+        // Update main slider images (only original slides, not cloned)
+        $('.work-slider').find('img').not('.slick-cloned img').each(function(index) {
+            if (images[index]) {
+                $(this).attr('src', images[index]);
+            }
+        });
+        
+        // Update thumbnail slider images (only original slides, not cloned)
+        $('.work-item-slider').find('img').not('.slick-cloned img').each(function(index) {
+            if (images[index]) {
+                $(this).attr('src', images[index]);
+            }
+        });
+        
+        // Refresh the sliders to update cloned slides
+        $('.work-slider').slick('setPosition');
+        $('.work-item-slider').slick('setPosition');
+        
+        // Go to first slide
+        $('.work-slider').slick('slickGoTo', 0);
+        $('.work-item-slider').slick('slickGoTo', 0);
+    }
+
+    // Handle service link clicks
+    document.addEventListener('DOMContentLoaded', function() {
+        const serviceLinks = document.querySelectorAll('.service-link');
+        
+        serviceLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all links
+                document.querySelectorAll('.widget_linklist li').forEach(li => {
+                    li.classList.remove('active');
+                });
+                
+                // Add active class to clicked link's parent
+                this.parentElement.classList.add('active');
+                
+                // Get service data
+                const serviceKey = this.getAttribute('data-service');
+                const service = serviceData[serviceKey];
+                
+                // Update content
+                document.getElementById('service-title').textContent = service.title;
+                document.getElementById('service-description').innerHTML = service.description;
+                
+                // Update slider images
+                updateSliderImages(service.images);
+                
+                // Scroll to top of content
+                document.getElementById('content').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    });
+</script>

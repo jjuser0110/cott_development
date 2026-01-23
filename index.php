@@ -14,9 +14,9 @@
             <div class="tp-banner" >
                 <ul>
                     <!-- SLIDE 1  -->
-                    <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-thumb="image/background.jpg"  data-saveperformance="on" data-title="Slider 1">
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-thumb="image/background6.jpg"  data-saveperformance="on" data-title="Slider 1">
                         <!-- MAIN IMAGE -->
-                        <img src="img/slider/dummy.png"  alt="slidebg1" data-lazyload="image/background.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <img src="img/slider/dummy.png"  alt="slidebg1" data-lazyload="image/background6.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -58,7 +58,7 @@
                             data-splitout="none"
                             data-elementdelay="0.1"
                             data-endelementdelay="0.1"
-                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='btn btn-primary'>Who we are</a>
+                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')" class='btn btn-primary'>Who we are</a>
                         </div>
 
                     <!-- SLIDE 2 -->
@@ -124,14 +124,14 @@
                             data-splitout="none"
                             data-elementdelay="0.1"
                             data-endelementdelay="0.1"
-                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='btn btn-primary mr-10'>Who we are</a> <a href='#' class='btn btn-transparent'>Get a quote</a>
+                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><<a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')" class='btn btn-primary mr-10'>Who we are</a> <a href='contact.php' class='btn btn-transparent'>Get a quote</a>
                         </div>
                     </li>
 
                     <!-- SLIDE 3 -->
-                    <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-thumb="image/background3.jpg"  data-saveperformance="on"  data-title="Slider 3">
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-thumb="image/background.jpg"  data-saveperformance="on"  data-title="Slider 3">
                         <!-- MAIN IMAGE -->
-                        <img src="img/slider/dummy.png"  alt="slidebg1" data-lazyload="image/background3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <img src="img/slider/dummy.png"  alt="slidebg1" data-lazyload="image/background.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -174,7 +174,7 @@
                             data-splitout="none"
                             data-elementdelay="0.1"
                             data-endelementdelay="0.1"
-                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='btn btn-primary'>Who we are</a>
+                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')" class='btn btn-primary'>Who we are</a>
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -189,7 +189,7 @@
                             data-splitout="none"
                             data-elementdelay="0.1"
                             data-endelementdelay="0.1"
-                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='btn btn-transparent'>Get a quote</a>
+                            style="z-index: 99; max-width: auto; max-height: auto; white-space: nowrap;"><a href='contact.php' class='btn btn-transparent'>Get a quote</a>
                         </div>
                     </li>
                 </ul>
@@ -212,10 +212,10 @@
 
                     <div class="row">
                         <div class="col-lg-4 col-sm-6 col-xs-12">
-                            <h3 class="h5 text-uppercase mb-20"><a href="service-single.html">Building Engineering</a></h3>
+                            <h3 class="h5 text-uppercase mb-20"><a href="service.php">Building Engineering</a></h3>
                             <div class="post-thumbnail hover-link">
                                 <img src="image/buildingengineer.jpg" alt="" style="min-height: 180px; width: 100%; object-fit: cover;" />
-                                <a href="service-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!--/ post-thumbnail -->
                             <div class="mb-30">
                                 <p>We provide comprehensive building engineering solutions, ensuring structural integrity, safety, and efficiency across all stages of construction projects.</p>
@@ -223,10 +223,10 @@
                         </div><!-- /col -->
 
                         <div class="col-lg-4 col-sm-6 col-xs-12">
-                            <h3 class="h5 text-uppercase mb-20"><a href="service-single.html">Architecture</a></h3>
+                            <h3 class="h5 text-uppercase mb-20"><a href="service.php">Architecture</a></h3>
                             <div class="post-thumbnail hover-link">
                                 <img src="image/architecture.jpg" alt="" style="min-height: 180px; width: 100%; object-fit: cover;" />
-                                <a href="service-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!--/ post-thumbnail -->
                             <div class="mb-30">
                                 <p>Our architectural services focus on functional, innovative, and sustainable designs tailored to meet client requirements and project objectives.</p>
@@ -234,10 +234,10 @@
                         </div><!-- /col -->
 
                         <div class="col-lg-4 col-sm-12 col-xs-12">
-                            <h3 class="h5 text-uppercase mb-20"><a href="service-single.html">Construction Services</a></h3>
+                            <h3 class="h5 text-uppercase mb-20"><a href="service.php">Construction Services</a></h3>
                             <div class="post-thumbnail hover-link">
                                 <img src="image/constructionservices.jpg" alt="" style="min-height: 180px; width: 100%; object-fit: cover;" />
-                                <a href="service-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!--/ post-thumbnail -->
                             <div class="mb-30">
                                 <p>We deliver reliable construction services with quality workmanship, timely completion, and strict adherence to industry standards and safety regulations.</p>
@@ -270,34 +270,35 @@
     <!-- END / ABOUT -->
 
     <!-- ICON BOX -->
-    <section class="section bg-white pt-50 pb-0">
-        <div class="container">
+    <section class="section bg-white pt-50 pb-0" data-background="image/background4.jpg">
+        <div class="bg-overlay-black bg-overlay-7"></div>
+        <div class="container" style="color:white; padding-top: 10px; padding-bottom: 10px;">
             <div class="row">
                 <div class="col-lg-4 col-lg-push-4 col-sm-6 col-xs-12">
-                    <div class="cortana-icon">
+                    <div class="cortana-icon" style="color:white">
                         <i class="fa fa-anchor"></i>
-                        <h5 class="text-uppercase">Integrity</h5>
-                        <p>We uphold ethical, honest, and transparent business practices in every project, forming the foundation of trust with our clients and partners.</p>
+                        <h5 class="text-uppercase" style="color:white">Integrity</h5>
+                        <p style="color:white">We uphold ethical, honest, and transparent business practices in every project, forming the foundation of trust with our clients and partners.</p>
                     </div><!-- /cortana-icon -->
 
-                    <div class="cortana-icon">
+                    <div class="cortana-icon" style="color:white">
                         <i class="fa fa-users"></i>
-                        <h5 class="text-uppercase">Staff</h5>
-                        <p>Our projects are driven by a qualified, well-trained, and experienced team committed to delivering quality workmanship and professional service.</p>
+                        <h5 class="text-uppercase" style="color:white">Staff</h5>
+                        <p style="color:white">Our projects are driven by a qualified, well-trained, and experienced team committed to delivering quality workmanship and professional service.</p>
                     </div><!-- /cortana-icon -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4 col-lg-push-4 col-sm-6 col-xs-12">
-                    <div class="cortana-icon">
+                    <div class="cortana-icon" style="color:white">
                         <i class="fa fa-eye"></i>
-                        <h5 class="text-uppercase">Vision</h5>
-                        <p>To become a dynamic and leading company in the construction and material supply industry, ready to meet future challenges.</p>
+                        <h5 class="text-uppercase" style="color:white">Vision</h5>
+                        <p style="color:white">To become a dynamic and leading company in the construction and material supply industry, ready to meet future challenges.</p>
                     </div><!-- /cortana-icon -->
 
-                    <div class="cortana-icon">
+                    <div class="cortana-icon" style="color:white">
                         <i class="fa fa-shield"></i>
-                        <h5 class="text-uppercase">Safety</h5>
-                        <p>We prioritize safety in all operations by maintaining strict compliance with industry standards to protect our workforce, clients, and communities.</p>
+                        <h5 class="text-uppercase" style="color:white">Safety</h5>
+                        <p style="color:white">We prioritize safety in all operations by maintaining strict compliance with industry standards to protect our workforce, clients, and communities.</p>
                     </div><!-- /cortana-icon -->
                 </div><!-- /col -->
 
@@ -309,11 +310,94 @@
     </section>
     <!-- END / ICON BOX -->
 
+    <!-- CONTENT -->
+    <section id="ourservice" class="section bg-white pt-60 pb-60">
+        <div class="container">
+            <h2 class="section-header big" data-section-center="991">Our Services</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="section-header">Building Construction</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/building_construction1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>We undertake complete building construction works for residential, commercial, institutional, and government projects, from foundation works through to final completion and handover.</p>
+                    </div>
+                </div><!-- /col -->
+
+                <div class="col-md-4">
+                    <h2 class="section-header">Civil & Infrastructure Works</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/civil_work1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>We carry out civil and infrastructure works including road construction, road upgrading, drainage systems, access roads, and supporting infrastructure for public and private developments.</p>
+                    </div>
+                </div><!-- /col -->
+
+                <div class="col-md-4">
+                    <h2 class="section-header">Earthworks & Site Preparation</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/earthwork1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>Our earthworks services include land clearing, excavation, filling, leveling, and subbase preparation to support building, road, and infrastructure construction projects.</p>
+                    </div>
+                </div><!-- /col -->
+            </div><!-- /row -->
+
+            <div class="divider pt-10" style="padding: 20px 0;"></div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="section-header">Drainage, Irrigation & River Protection</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/river_protection1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>We provide drainage improvement, irrigation infrastructure, and riverbank protection works to enhance flood control, water management, and long-term environmental stability.</p>
+                    </div>
+                </div><!-- /col -->
+
+                <div class="col-md-4">
+                    <h2 class="section-header">Renovation & Maintenance</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/renovation1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>We deliver renovation, refurbishment, and maintenance works for existing buildings, including interior upgrading, structural repairs, roofing, repainting, and related improvement works.</p>
+                    </div>
+                </div><!-- /col -->
+
+                <div class="col-md-4">
+                    <h2 class="section-header">Ancillary Civil Structures</h2>
+                    <div class="post-thumbnail hover-link" style="height: 250px; overflow: hidden;">
+                        <img src="image/ancillary1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                        <a href="service.php" class="overlay"><i class="fa fa-link"></i></a>
+                    </div><!--/ post-thumbnail -->
+                    <div class="mb-30">
+                        <p>We construct ancillary civil structures such as pump houses, tank plinths, and supporting facilities for mechanical and fire protection systems within development projects.</p>
+                    </div>
+                </div><!-- /col -->
+            </div><!-- /row -->
+            <div class="text-center mt-40">
+                <a href="service.php" class="btn btn-primary radius mb-30">View more </a>
+            </div>
+        </div><!-- /container -->
+    </section>
+    <!-- END / CONTENT -->
+
     <!-- PORTFOLIO 1 -->
     <section id="ourwork" class="section bg-parallax pt-60 pb-60" data-background="image/background4.jpg">
         <div class="bg-overlay-black bg-overlay-7"></div>
         <div class="container">
-            <h2 class="section-header big" data-section-center="991">Our Work</h2>
+            <h2 class="section-header big" data-section-center="991">Our Works</h2>
             <!-- FILTER -->
             <ul class="portfolio-selector filters" data-portfolio-type="991">
                 <li><a href="#" data-filter="*">All</a></li>
@@ -327,78 +411,77 @@
                 <div class="isotope-grid-row">
                     <div class="isotope-grid">
                         <div class="grid-sizer"></div>
-                        <!-- <div class="gutter-sizer"></div> -->
 
                         <div class="portfolio-item road">
                             <div class="portfolio-media hover-link">
-                                <img src="image/roadmarking.jpg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <img src="image/roadmarking1.jpg" alt="" width="768" height="512" />
+                                <a href="work.php?id=1" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Road Marking Works – Kuching South</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=1">Road Marking Works – Kuching South</a></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item building">
                             <div class="portfolio-media hover-link">
                                 <img src="image/masjidassyuhadah.jpg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=2" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Masjid As-Syuhadah Construction</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=2">Masjid As-Syuhadah Construction</a></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item road">
                             <div class="portfolio-media hover-link">
                                 <img src="image/matangroadupgrade.jpg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=3" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Jalan Baru Matang Road Upgrade</a><br></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=3">Jalan Baru Matang Road Upgrade</a><br></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item earthwork">
                             <div class="portfolio-media hover-link">
                                 <img src="image/bayearthwork.jpeg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=4" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Construction of Wet Market (Non-Halal)</a><br></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=4">Construction of Wet Market (Non-Halal)</a><br></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item office">
                             <div class="portfolio-media hover-link">
                                 <img src="image/cabinoffice.jpeg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=5" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Army Camp Cabin Office Construction</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=5">Army Camp Cabin Office Construction</a></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item building">
                             <div class="portfolio-media hover-link">
                                 <img src="image/communityhall.jpg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=6" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">New Community Hall – Igan, Mukah</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=6">New Community Hall – Igan, Mukah</a></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item building">
                             <div class="portfolio-media hover-link">
                                 <img src="image/skleburremun.jpeg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=7" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Redevelopment of SK Lebur Remun – Serian</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=7">Redevelopment of SK Lebur Remun – Serian</a></h5>
                         </div><!-- /portfolio-item -->
 
                         <div class="portfolio-item building">
                             <div class="portfolio-media hover-link">
                                 <img src="image/sknangakesit.jpeg" alt="" width="768" height="512" />
-                                <a href="work-single.html" class="overlay"><i class="fa fa-link"></i></a>
+                                <a href="work.php?id=8" class="overlay"><i class="fa fa-link"></i></a>
                             </div><!-- /hover-link -->
-                            <h5 class="text-uppercase text-center"><a href="work-single.html">Redevelopment of SK Nanga Kesit – Lubok Antu</a></h5>
+                            <h5 class="text-uppercase text-center"><a href="work.php?id=8">Redevelopment of SK Nanga Kesit – Lubok Antu</a></h5>
                         </div><!-- /portfolio-item -->
                     </div><!-- /isotope-grid -->
                 </div><!-- /isotope-grid-row -->
             </div><!-- /isotope-grid-wrapper -->
 
-            <div class="text-center mt-40">
-                <a href="service-single.html" class="btn btn-primary radius mb-30">View more </a>
-            </div>
+            <!-- <div class="text-center mt-40">
+                <a href="service.php" class="btn btn-primary radius mb-30">View more </a>
+            </div> -->
         </div><!-- /container -->
     </section>
     <!-- END / PORTFOLIO 1 -->
@@ -438,7 +521,7 @@
     <!-- END / COUNTER 1 -->
 
     <!-- OUR LEADERS -->
-    <section class="section bg-white pt-60 pb-60">
+    <section id="ourleader" class="section bg-white pt-60 pb-60">
         <div class="container">
             <h2 class="section-header" data-section-center="767">Our Leaders</h2>
             <div class="row">
@@ -458,6 +541,7 @@
                                     <p>Highly experienced construction professional with over a decade of leadership in large-scale infrastructure and building projects across Sarawak, Malaysia. Since founding Cott Construction and later leading Cott Development, Croff Sdn. Bhd., and Salam Mulia Jaya Sdn. Bhd., he has successfully overseen numerous high-value projects, including roads, schools, industrial facilities, waterfront developments, and government infrastructure.</p>
                                     <p>A certified professional with extensive knowledge in project management, quality assurance (ISO 9001), and sustainable construction practices, Bryan combines technical expertise with strategic business acumen. He has also contributed to investment initiatives in green energy and sustainability as Investment Director at Apta Capital Sdn. Bhd.</p>
                                     <br/>
+                                    <a href="our_leader.php" class="btn btn-primary radius mb-30">Read more</a>
                                     <ul class="social-list black">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -511,7 +595,7 @@
                 </div><!-- /col -->
 
                 <div class="col-md-3 col-sm-12 col-xs-12">
-                    <div class="text-center text-right-md"><button type="button" class="btn btn-black">Get a quote</button></div>
+                    <div class="text-center text-right-md"><button type="button" class="btn btn-black" onclick="window.location.href='contact.php'">Get a quote</button></div>
                 </div><!-- /col -->
             </div><!-- /row -->
         </div><!-- /container -->
