@@ -13,14 +13,19 @@
         <div class="bg-overlay-black bg-overlay-5"></div>
         <div class="container">
             <div class="sub-wrapper">
-                <h1>Contact us</h1>
-                <h2 class="h4">If you’d like to talk to us about a project, or anything else, we’d love to hear from you.</h2>
-
+                <h1><span class="lang-text" data-en="Contact Us" data-bm="Hubungi Kami" data-zh="联系我们">Contact Us</span></h1>
+                <h2 class="h4">
+                    <span class="lang-text" data-en="If you’d like to talk to us about a project, or anything else, we’d love to hear from you."
+                        data-bm="Jika anda ingin bercakap dengan kami tentang projek, atau perkara lain, kami ingin mendengar daripada anda."
+                        data-zh="如果您想与我们讨论项目或其他事项，我们非常乐意听取您的意见。">
+                        If you’d like to talk to us about a project, or anything else, we’d love to hear from you.
+                    </span>
+                </h2>
                 <div class="breadcrumb-container right clearfix">
-                    <span>You are here: </span>
+                    <span data-en="You are here:" data-bm="Anda berada di sini:" data-zh="您在这里：">You are here: </span>
                     <ul class="breadcrumb">
-                        <li><a href="./">Home</a></li>
-                        <li>Contact Us</li>
+                        <li><a href="./" data-en="Home" data-bm="Laman Utama" data-zh="首页">Home</a></li>
+                        <li data-en="Contact Us" data-bm="Hubungi Kami" data-zh="联系我们">Contact Us</li>
                     </ul>
                 </div><!-- /breadcrumb -->
             </div><!-- /sub-wrapper -->
@@ -35,7 +40,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div id="content" class="site-content">
                         <main id="main">
-                            <p>Have a project in mind or need more information about our services? Contact us today and our team will respond as soon as possible.</p>
+                            <p data-en="Have a project in mind or need more information about our services? Contact us today and our team will respond as soon as possible." data-bm="Ada projek dalam fikiran atau perlukan maklumat lanjut tentang perkhidmatan kami? Hubungi kami hari ini dan pasukan kami akan memberi respons secepat mungkin."data-zh="有项目想法或需要更多关于我们服务的信息？今天就联系我们，我们的团队会尽快回复。">Have a project in mind or need more information about our services? Contact us today and our team will respond as soon as possible.</p>
 
                             <br />
 
@@ -54,7 +59,12 @@
 
                                 <textarea name="message" placeholder="Message"></textarea>
 
-                                <button type="submit" class="btn btn-primary radius">Send message</button>
+                                <button type="submit" class="btn btn-primary radius"
+                                        data-en="Send message"
+                                        data-bm="Hantar mesej"
+                                        data-zh="发送消息">
+                                    Send message
+                                </button>
                                 <div id="contact-content" style="padding-top: 20px"></div>
                             </form>
                         </main>
@@ -79,7 +89,9 @@
                                 <ul>
                                     <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
                                     <li><i class="icon icon-phone"></i>082-528567</li>
-                                    <li><i class="icon icon-clock"></i>Mon - Fri: 8:00 - 18:00</li>
+                                    <li><i class="icon icon-clock"></i>
+                                        <span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五: 8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span>
+                                    </li>
                                     <li><i class="fa fa-map-marker"></i>2nd Floor, Sublot 13, Lot 19870, Aeroville Commercial Centre Phase 1, Jalan Stutong Baru, 93350 Kuching, Sarawak, Malaysia.</li>
                                 </ul>
                             </aside><!-- /widget_contact -->

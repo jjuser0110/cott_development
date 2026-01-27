@@ -28,78 +28,76 @@
             <!-- NAVIGATION -->
             <nav class="navigation nav1" data-menu-type="1199">
                 <ul class="nav text-uppercase">
-                    <li><a href="./">Home</a></li>
-                    <!-- <li class="menu-item-has-children">
-                        <a href="#">
-                            Features
-                            <span class="fa fa-angle-down"></span>
+                    <li>
+                        <a href="./">
+                            <span class="lang-text" data-en="Home" data-bm="Laman Utama" data-zh="首页">Home</span>
                         </a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">
-                                    Shortcodes
-                                    <span class="fa fa-angle-right"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li><a href="shortcode-counter.html">Shortcodes Counter</a></li>
-                                    <li><a href="shortcode-accordion.html">Shortcodes Accordion</a></li>
-                                    <li><a href="shortcode-progress.html">Shortcodes Progress bar</a></li>
-                                    <li><a href="shortcode-team.html">Shortcodes Team</a></li>
-                                    <li><a href="shortcode-client.html">Shortcodes Clients</a></li>
-                                    <li><a href="shortcode-pricing.html">Shortcodes Pricing Table</a></li>
-                                    <li><a href="shortcode-tabs.html">Shortcodes Tabs</a></li>
-                                    <li><a href="shortcode-notification.html">Shortcodes Notification</a></li>
-                                    <li><a href="shortcode-portfolio.html">Shortcodes Portfolio</a></li>
-                                    <li><a href="shortcode-testimonial.html">Shortcodes Testimonials</a></li>
-                                    <li><a href="shortcode-icon.html">Shortcodes Iconbox</a></li>
-                                    <li><a href="shortcode-gallery.html">Shortcodes Gallery</a></li>
-                                    <li><a href="header-menu-search.html">Header Menu Search</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="certification.html">Certification</a></li>
-                            <li><a href="partner.html">Partner</a></li>
-                            <li><a href="core-value.html">Core Value</a></li>
-                            <li><a href="pricing.html">Pricing Table</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="faqs.html">FaQs</a></li>
-                        </ul>
-                    </li> -->
+                    </li>
+
                     <li class="menu-item-has-children">
                         <a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">
-                            Who we are
-                            <!-- <span class="fa fa-angle-down"></span> -->
+                            <span class="lang-text" data-en="Who We Are" data-bm="Siapa Kami" data-zh="关于我们">Who We Are</span>
                         </a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="about-us.html">About us</a></li>
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="our-leaders.html">Our Leaders</a></li>
-                        </ul> -->
                     </li>
+
                     <li>
                         <a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">
-                            Our Service
+                            <span class="lang-text" data-en="Our Service" data-bm="Perkhidmatan Kami" data-zh="我们的服务">Our Service</span>
                         </a>
                     </li>
+
                     <li>
                         <a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">
-                            Our work
+                            <span class="lang-text" data-en="Our Work" data-bm="Projek Kami" data-zh="我们的工程">Our Work</span>
                         </a>
                     </li>
-                    <li><a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')">Our Leader</a></li>
+
+                    <li>
+                        <a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')">
+                            <span class="lang-text" data-en="Our Leader" data-bm="Pengurusan Kami" data-zh="我们的领导">Our Leader</span>
+                        </a>
+                    </li>
+
                     <li class="menu-item-has-children">
                         <a href="#">
-                            Others
+                            <span class="lang-text" data-en="Others" data-bm="Lain-lain" data-zh="其他">Others</span>
                             <span class="fa fa-angle-down"></span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="core_value.php">Core Value</a></li>
-                            <li><a href="partner.php">Partnership</a></li>
-                            <li><a href="certification.php">Certification</a></li>
+                            <li>
+                                <a href="core_value.php">
+                                    <span class="lang-text" data-en="Core Value" data-bm="Nilai Teras" data-zh="核心价值">Core Value</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="partner.php">
+                                    <span class="lang-text" data-en="Partnership" data-bm="Rakan Kongsi" data-zh="合作伙伴">Partnership</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="certification.php">
+                                    <span class="lang-text" data-en="Certification" data-bm="Pensijilan" data-zh="认证">Certification</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
-                    <!-- <li><a href="news.html">News</a></li> -->
-                    <li><a href="contact.php">Contact us</a></li>
+
+                    <li>
+                        <a href="contact.php">
+                            <span class="lang-text" data-en="Contact Us" data-bm="Hubungi Kami" data-zh="联系我们">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">
+                            <span class="lang-text" data-en="Language" data-bm="Bahasa" data-zh="语言">Language</span>
+                            <span class="fa fa-angle-down"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="javascript:void(0)" onclick="switchLanguage('en')">English</a></li>
+                            <li><a href="javascript:void(0)" onclick="switchLanguage('bm')">Bahasa Malaysia</a></li>
+                            <li><a href="javascript:void(0)" onclick="switchLanguage('zh')">中文</a></li>
+                        </ul>
+                    </li>
                 </ul><!-- /nav -->
             </nav>
             <!-- END / NAVIGATION -->

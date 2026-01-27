@@ -9,7 +9,9 @@
                             <div class="logo">
                                 <a href="./"><img src="image/logo_80.png" alt="logo" /></a>
                             </div><!-- /#logo -->
-                            <p>COTT Development Sdn. Bhd. is a trusted construction company specializing in infrastructure, building, and earthwork projects across Sarawak. We are committed to quality workmanship and sustainable solutions.</p>
+                            <p>
+                                <span class="lang-text" data-en="COTT Development Sdn. Bhd. is a trusted construction company specializing in infrastructure, building, and earthwork projects across Sarawak. We are committed to quality workmanship and sustainable solutions." data-bm="COTT Development Sdn. Bhd. adalah syarikat pembinaan yang dipercayai yang pakar dalam projek infrastruktur, bangunan, dan kerja tanah di seluruh Sarawak. Kami komited kepada kerja berkualiti dan penyelesaian mampan." data-zh="COTT Development Sdn. Bhd. 是一家值得信赖的建筑公司，专门从事砂拉越的基础设施、建筑和土方工程项目。我们致力于优质工艺和可持续解决方案。">COTT Development Sdn. Bhd. is a trusted construction company specializing in infrastructure, building, and earthwork projects across Sarawak. We are committed to quality workmanship and sustainable solutions.</span>
+                            </p>
                             <ul class="social-list">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -21,9 +23,15 @@
 
                     <div class="col-md-3 col-md-push-6 col-sm-6 col-xs-12">
                         <aside class="widget widget_subscribe">
-                            <h3 class="widget-title h4">Contact Us</h3>
-                            <p>Get in touch with us for any inquiries about our construction services.</p>
-                            <button type="submit" class="btn btn-primary" onclick="window.location.href='contact.php'">Message Us</button>
+                            <h3 class="widget-title h4">
+                                <span class="lang-text" data-en="Contact Us" data-bm="Hubungi Kami" data-zh="联系我们">Contact Us</span>
+                            </h3>
+                            <p>
+                                <span class="lang-text" data-en="Get in touch with us for any inquiries about our construction services." data-bm="Hubungi kami untuk sebarang pertanyaan mengenai perkhidmatan pembinaan kami." data-zh="如有任何关于我们建筑服务的咨询，请与我们联系。">Get in touch with us for any inquiries about our construction services.</span>
+                            </p>
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href='contact.php'">
+                                <span class="lang-text" data-en="Message Us" data-bm="Hubungi Kami" data-zh="联系我们">Message Us</span>
+                            </button>
                         </aside><!-- /widget_subscribe -->
                     </div><!-- /col -->
 
@@ -31,12 +39,14 @@
 
                     <div class="col-md-3 col-md-pull-3 col-sm-6 col-xs-12">
                         <aside class="widget widget_contact">
-                            <h3 class="widget-title h4">Get in touchs</h3>
+                            <h3 class="widget-title h4">
+                                <span class="lang-text" data-en="Get in touch" data-bm="Berhubung" data-zh="联系方式">Get in touch</span>
+                            </h3>
                             <ul>
                                 <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
                                 <li><i class="icon icon-phone"></i>082-528567</li>
                                 <li><i class="fa fa-fax"></i>082-522270</li>
-                                <li><i class="icon icon-clock"></i>Mon - Fri: 8:00 - 18:00</li>
+                                <li><i class="icon icon-clock"></i><span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五：8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span></li>
                                 <li><i class="fa fa-map-marker"></i>2nd Floor, Sublot 13, Lot 19870, Aeroville Commercial Centre Phase 1, Jalan Stutong Baru, 93350 Kuching, Sarawak, Malaysia.</li>
                             </ul>
                         </aside><!-- /widget_contact -->
@@ -44,15 +54,17 @@
 
                     <div class="col-md-3 col-md-pull-3 col-sm-6 col-xs-12">
                         <aside class="widget widget_infomation">
-                            <h3 class="widget-title h4">Information</h3>
+                            <h3 class="widget-title h4">
+                                <span class="lang-text" data-en="Information" data-bm="Maklumat" data-zh="信息">Information</span>
+                            </h3>
                             <ul class="list-style">
-                                <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">About Us</a></li>
-                                <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">Our Service</a></li>
-                                <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">Our Work</a></li>
-                                <li><a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')">Our Leader</a></li>
-                                <li><a href="core_value.php">Core Value</a></li>
-                                <li><a href="partner.php">Partnership</a></li>
-                                <li><a href="certification.php">Certification</a></li>
+                                <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')"><span class="lang-text" data-en="About Us" data-bm="Tentang Kami" data-zh="关于我们">About Us</span></a></li>
+                                <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')"><span class="lang-text" data-en="Our Service" data-bm="Perkhidmatan Kami" data-zh="我们的服务">Our Service</span></a></li>
+                                <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')"><span class="lang-text" data-en="Our Work" data-bm="Kerja Kami" data-zh="我们的项目">Our Work</span></a></li>
+                                <li><a href="#ourleader" onclick="scrollOrRedirect(event, '#ourleader')"><span class="lang-text" data-en="Our Leader" data-bm="Pemimpin Kami" data-zh="我们的领导">Our Leader</span></a></li>
+                                <li><a href="core_value.php"><span class="lang-text" data-en="Core Value" data-bm="Nilai Teras" data-zh="核心价值">Core Value</span></a></li>
+                                <li><a href="partner.php"><span class="lang-text" data-en="Partnership" data-bm="Perkongsian" data-zh="合作伙伴">Partnership</span></a></li>
+                                <li><a href="certification.php"><span class="lang-text" data-en="Certification" data-bm="Pensijilan" data-zh="认证">Certification</span></a></li>
                             </ul>
                         </aside><!-- /widget_infomation -->
                     </div><!-- /col -->
@@ -63,13 +75,13 @@
         <div class="foot-credit">
             <div class="container">
                 <ul>
-                    <li><a href="./">Home</a></li>
-                    <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')">Who we are</a></li>
-                    <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')">Our Service</a></li>
-                    <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')">Our Work</a></li>
-                    <li><a href="contact.php">Contact us</a></li>
+                    <li><a href="./"><span class="lang-text" data-en="Home" data-bm="Laman Utama" data-zh="首页">Home</span></a></li>
+                    <li><a href="#aboutus" onclick="scrollOrRedirect(event, '#aboutus')"><span class="lang-text" data-en="Who we are" data-bm="Siapa kami" data-zh="关于我们">Who we are</span></a></li>
+                    <li><a href="#ourservice" onclick="scrollOrRedirect(event, '#ourservice')"><span class="lang-text" data-en="Our Service" data-bm="Perkhidmatan Kami" data-zh="我们的服务">Our Service</span></a></li>
+                    <li><a href="#ourwork" onclick="scrollOrRedirect(event, '#ourwork')"><span class="lang-text" data-en="Our Work" data-bm="Kerja Kami" data-zh="我们的项目">Our Work</span></a></li>
+                    <li><a href="contact.php"><span class="lang-text" data-en="Contact us" data-bm="Hubungi kami" data-zh="联系我们">Contact us</span></a></li>
                 </ul>
-                <p>© 2025 <a href="./" style="color:white">Cott Development</a>. All rights reserved.</p>
+                <p>© 2025 <a href="./" style="color:white">Cott Development</a>. <span class="lang-text">All rights reserved.</span></p>
             </div><!-- /container -->
         </div><!-- /foot-credit -->
     </footer>
@@ -335,6 +347,26 @@
             // Optional: do something with the data-service value
             const service = this.getAttribute('data-service');
             console.log('Selected service:', service);
+        });
+    });
+</script>
+
+<script>
+    function switchLanguage(lang) {
+        // Save language to localStorage
+        localStorage.setItem('siteLang', lang);
+
+        // Reload the page so slider shows correct language
+        location.reload();
+    }
+
+    // Load saved language on page load
+    document.addEventListener('DOMContentLoaded', function () {
+        const savedLang = localStorage.getItem('siteLang') || 'en';
+        
+        // This ensures slider text is correct after refresh
+        document.querySelectorAll('[data-' + savedLang + ']').forEach(el => {
+            el.textContent = el.getAttribute('data-' + savedLang);
         });
     });
 </script>
