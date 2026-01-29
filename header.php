@@ -30,8 +30,8 @@
     <meta name="twitter:image" content="https://cottdevelopment.com.my/image/logo.png">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://cottdevelopment.com.my/image/logo_80.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://cottdevelopment.com.my/image/logo_80.png">
+    <link rel="icon" href="https://cottdevelopment.com.my/image/smalllogo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://cottdevelopment.com.my/image/smalllogo.png">
 
     <!-- Theme Color (optional) -->
     <meta name="theme-color" content="#1f2933">
