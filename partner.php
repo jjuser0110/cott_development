@@ -86,14 +86,6 @@
                                             <td style="padding: 10px 0;">cottdevelopment@gmail.com<br>infocottdevelopment@gmail.com</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 10px 0;" data-en="Telephone" data-bm="Telefon" data-zh="电话"><strong>Telephone</strong></td>
-                                            <td style="padding: 10px 0;">082-528567</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding: 10px 0;" data-en="Fax" data-bm="Faks" data-zh="传真"><strong>Fax</strong></td>
-                                            <td style="padding: 10px 0;">082-522270</td>
-                                        </tr>
-                                        <tr>
                                             <td style="padding: 10px 0;" data-en="Mobile" data-bm="Telefon Bimbit" data-zh="手机"><strong>Mobile</strong></td>
                                             <td style="padding: 10px 0;">014-311 3519</td>
                                         </tr>
@@ -252,8 +244,7 @@
                                 </h3>
                                 <ul>
                                     <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
-                                    <li><i class="icon icon-phone"></i>082-528567</li>
-                                    <li><i class="fa fa-fax"></i>082-522270</li>
+                                    <li><i class="icon icon-phone"></i>014-311 3519</li>
                                     <li><i class="icon icon-clock"></i>
                                         <span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五: 8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span>
                                     </li>

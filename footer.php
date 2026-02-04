@@ -12,12 +12,12 @@
                             <p>
                                 <span class="lang-text" data-en="COTT Development Sdn. Bhd. is a trusted construction company specializing in infrastructure, building, and earthwork projects across Sarawak. We are committed to quality workmanship and sustainable solutions." data-bm="COTT Development Sdn. Bhd. adalah syarikat pembinaan yang dipercayai yang pakar dalam projek infrastruktur, bangunan, dan kerja tanah di seluruh Sarawak. Kami komited kepada kerja berkualiti dan penyelesaian mampan." data-zh="COTT Development Sdn. Bhd. 是一家值得信赖的建筑公司，专门从事砂拉越的基础设施、建筑和土方工程项目。我们致力于优质工艺和可持续解决方案。">COTT Development Sdn. Bhd. is a trusted construction company specializing in infrastructure, building, and earthwork projects across Sarawak. We are committed to quality workmanship and sustainable solutions.</span>
                             </p>
-                            <ul class="social-list">
+                            <!-- <ul class="social-list">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="icon icon-flickr"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
+                            </ul> -->
                         </aside><!-- /widget_about -->
                     </div><!-- /col -->
 
@@ -44,8 +44,7 @@
                             </h3>
                             <ul>
                                 <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
-                                <li><i class="icon icon-phone"></i>082-528567</li>
-                                <li><i class="fa fa-fax"></i>082-522270</li>
+                                <li><i class="icon icon-phone"></i>014-311 3519</li>
                                 <li><i class="icon icon-clock"></i><span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五：8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span></li>
                                 <li><i class="fa fa-map-marker"></i>2nd Floor, Sublot 13, Lot 19870, Aeroville Commercial Centre Phase 1, Jalan Stutong Baru, 93350 Kuching, Sarawak, Malaysia.</li>
                             </ul>

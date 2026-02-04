@@ -198,8 +198,7 @@
                                 </h3>
                                 <ul>
                                     <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
-                                    <li><i class="icon icon-phone"></i>082-528567</li>
-                                    <li><i class="fa fa-fax"></i>082-522270</li>
+                                    <li><i class="icon icon-phone"></i>014-311 3519</li>
                                     <li><i class="icon icon-clock"></i><span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五：8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span></li>
                                     <li><i class="fa fa-map-marker"></i>2nd Floor, Sublot 13, Lot 19870, Aeroville Commercial Centre Phase 1, Jalan Stutong Baru, 93350 Kuching, Sarawak, Malaysia.</li>
                                 </ul>

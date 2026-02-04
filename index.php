@@ -305,8 +305,7 @@
                             </h3>
                             <ul>
                                 <li><i class="icon icon-paper-plane"></i><a href="#">cottdevelopment@gmail.com</a></li>
-                                <li><i class="icon icon-phone"></i>082-528567</li>
-                                <li><i class="fa fa-fax"></i>082-522270</li>
+                                <li><i class="icon icon-phone"></i>014-311 3519</li>
                                 <li><i class="icon icon-clock"></i><span class="lang-text" data-en="Mon - Fri: 8:00 - 18:00" data-bm="Isnin - Jumaat: 8:00 - 18:00" data-zh="周一至周五：8:00 - 18:00">Mon - Fri: 8:00 - 18:00</span></li>
                                 <li><i class="fa fa-map-marker"></i>2nd Floor, Sublot 13, Lot 19870, Aeroville Commercial Centre Phase 1, Jalan Stutong Baru, 93350 Kuching, Sarawak, Malaysia.</li>
                             </ul>
@@ -649,12 +648,12 @@
                                     <a href="our_leader.php" class="btn btn-primary radius mb-30">
                                         <span class="lang-text" data-en="Read more" data-bm="Baca lebih lanjut" data-zh="阅读更多">Read more</span>
                                     </a>
-                                    <ul class="social-list black">
+                                    <!-- <ul class="social-list black">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="icon icon-flickr"></i></a></li>
                                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div><!-- /page-content -->
                             </div><!-- /page-grid -->
 
